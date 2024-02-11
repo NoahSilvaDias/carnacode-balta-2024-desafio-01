@@ -41,16 +41,17 @@ html, body {
     font-weight: 500;
     display: flex;
     justify-content: center;
+    text-align-last: center;
 }
 
-.register-data-container {
+.recover-data-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
 }
 
-.register-data-container input {
+.recover-data-container input {
     font-size: 110%;
     padding: 4%;
     border: 2px solid #E8E8E8;
@@ -76,12 +77,12 @@ html, body {
     border-radius: 25px;
 }
 
-.btnRegister {
+.btnRecover {
     background-color: #45FEFE;
     border: 0 solid;
 }
 
-.btnLogin {
+.btnRegister {
     background-color: #FFFFFF;
     border: 4px solid #45FEFE;
 }
